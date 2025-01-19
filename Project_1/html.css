@@ -1,1 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Resume</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="contact">
+            <h1>Ninkor Chandra Barman</h1>
+            <ul>
+                <li>
+                    <a href="https://github.com/NinkorB" target="_blank">
+                        <img src="image/Unknown.png" alt="GitHub" class="contact-icon"> GitHub
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:ninkorb4@gmail.com">
+                        <img src="image/em.png" alt="Email" class="contact-icon"> Email
+                    </a>
+                </li>
+                <li>
+                    <a href="https://linkedin.com/in/ninkor" target="_blank">
+                        <img src="image/174857.png" alt="LinkedIn" class="contact-icon"> LinkedIn
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="imag">
+            <table>
+                <tr>
+                    <td><img src="image/IMG_0874.jpg" alt="Profile Picture"></td>
+                    <td><p>I am an MCA student at NIT Allahabad, graduating in 2027, with a deep passion for software development, particularly in Java Full Stack Development. My academic and project experiences have equipped me with a strong foundation in building robust, scalable, and user-friendly applications.</p></td>
+                </tr>
+            </table>
+        </div>
 
+        <section class="education">
+            <h2>Education</h2>
+            <ul>
+                <li>Bachelor of Computer Application, Gauhati University</li>
+                <li>Pursuing Master of Computer Application, MNNIT Allahabad</li>
+            </ul>
+        </section>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>JAVA</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>C</li>
+                <li>C++</li>
+            </ul>
+        </section>
+
+        <section class="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>AmazeCart</h3>
+                <p>A responsive e-commerce platform clone inspired by Amazon, built using HTML and CSS.</p>
+                <a href="https://github.com/NinkorB/AmazeCart" target="_blank">GitHub Link</a>
+            </div>
+            <div class="project">
+                <h3>Beyonce's Boutique</h3>
+                <p>An innovative e-commerce platform connecting buyers, sellers, and fashion influencers, with key features like user registration and payment integration.</p>
+                <a href="https://github.com/prithbi777/Technocentric" target="_blank">GitHub Link</a>
+            </div>
+            <div class="project">
+                <h3>Numina - Calculated Risk</h3>
+                <p>An advanced calculator app with functions like arithmetic, scientific calculations, unit and base conversions.</p>
+                <a href="https://github.com/prithbi777/Numina" target="_blank">GitHub Link</a>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Ninkor Chandra Barman. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
